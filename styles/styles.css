@@ -1,0 +1,56 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126_960_720.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.pageHeader {
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgba(255,255,255,0.8);
+    width: 550px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+    border: 3px black solid;
+    box-shadow: 5px 5px 5px black;
+}
+
+.flex-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.shop {
+    flex-basis: 25%;
+    display: flex;
+    flex-flow: column;
+    border: 3px black solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.shop h2 {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+}
+
+a {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
